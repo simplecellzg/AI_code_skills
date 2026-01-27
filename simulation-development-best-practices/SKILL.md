@@ -36,7 +36,7 @@ nsys profile --stats=true ./program
 ncu --set full ./program
 ```
 
-**Key patterns from CAPEX-GPU and RMI projects:**
+**Key patterns from CPU-GPU and RMI projects:**
 - Legendre polynomial calculations consumed 85.9% of time → precompute with lookup tables
 - Memory allocation in hot loops → use buffer reuse
 - Repeated calculations → cache results
@@ -64,7 +64,7 @@ use_data(result);  // Safe to use
 - After loops launching multiple kernels
 - Before host-device data transfers
 
-**From CAPEX-GPU experience:** Missing synchronization caused race conditions that produced 10^20+ extreme values.
+**From CPU-GPU experience:** Missing synchronization caused race conditions that produced 10^20+ extreme values.
 
 ### 3. Test-Driven Development for Simulations
 
