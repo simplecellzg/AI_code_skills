@@ -241,8 +241,6 @@ writing-plans → dispatching-parallel-agents → test-driven-development → ve
 
 ## 文档资源
 
-- [使用指南（Markdown）](./仿真模拟开发最佳实践Skill使用指南.md)
-- [使用指南（Word）](./仿真模拟开发最佳实践Skill使用指南.docx)
 - [Claude Code官方文档](https://docs.anthropic.com/claude-code)
 - [Superpowers插件](https://github.com/superpowers-dev/superpowers)
 
