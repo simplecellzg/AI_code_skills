@@ -51,7 +51,7 @@
 
 ```bash
 # 复制skill文件到Claude Code的skills目录
-cp simulation-development-best-practices.md ~/.claude/skills/
+cp simulation-development-best-practices/SKILL.md ~/.claude/skills/simulation-development-best-practices/SKILL.md
 
 # 重启Claude Code
 claude restart
@@ -61,7 +61,7 @@ claude restart
 
 ```bash
 # 创建符号链接（方便更新）
-ln -s $(pwd)/simulation-development-best-practices.md ~/.claude/skills/simulation-development-best-practices.md
+ln -s $(pwd)/simulation-development-best-practices/SKILL.md ~/.claude/skills/simulation-development-best-practices/SKILL.md
 
 # 验证安装
 claude skills list | grep simulation
