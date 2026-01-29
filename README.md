@@ -29,21 +29,6 @@
 | MPI并行化项目 | 数据域分解、通信优化 | 单机到集群的扩展 |
 | 非线性建模项目 | 小样本高维输出 | PCA+GPR数据驱动模型 |
 
-## 文件结构
-
-```
-.
-├── simulation-development-best-practices.md  # 主Skill文件
-├── README.md                                 # 本文件
-├── 仿真模拟开发最佳实践Skill使用指南.md      # 使用指南（Markdown）
-├── 仿真模拟开发最佳实践Skill使用指南.docx    # 使用指南（Word）
-└── extracted/                                # 6个项目的源文档
-    ├── cpu_gpu/                              # GPU移植项目
-    ├── init_optimization/                    # 性能优化项目
-    ├── liu/                                  # 数值调试项目
-    ├── sparta_llm_agent/                     # 从零构建项目
-    └── ...
-```
 
 ## 安装方法
 
